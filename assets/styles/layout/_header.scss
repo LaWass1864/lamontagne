@@ -1,7 +1,8 @@
 header {
   min-height: 400px;
-  background-color: transparent;
-  padding: 60px;
+  background-color: transparent;  
+  margin: 0 auto;
+  padding: 50px 0 0 0;
 
   h1 {
     font-family: $font1;
@@ -9,9 +10,39 @@ header {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 3px;
-    text-align: center;
-    max-width: 320px;
+    text-align: center;   
+    width: 330px;
     margin: 0 auto;
     font-size: 2rem;
   }
+  
+  p{
+    font-style: italic;
+    color: $color1;
+    text-align: center;
+    margin: 20px;
+  }
+
+  button{
+    margin: 0 auto;
+    border-radius: 50%;
+    border:2px solid $color1;
+    padding: 10px;
+    border-radius: 50px;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    background: transparent;
+    margin-top: 90px;
+  }
+
+  .arrow{
+    display: flex;
+    justify-content: center;
+    color: $color1;
+  }
+
 }

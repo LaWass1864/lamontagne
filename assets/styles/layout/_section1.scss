@@ -1,0 +1,52 @@
+.section1 {
+  background: $color1;
+  padding-bottom: 30px ;
+
+  .massive {
+    text-align: center;
+    padding: 50px;
+  }
+
+  .hr-sect {
+    display: flex;
+    flex-basis: 80%;
+    align-items: center;
+    color: $color5;
+    font-family: $font2;
+    margin: 15px 0px;
+  }
+
+  .hr-sect:before,
+  .hr-sect:after {
+    content: "";
+    flex-grow: 1;
+    background: $color6;
+    height: 1.6px;
+    line-height: 0px;
+    margin: 0px 50px 0 50px;
+  }
+
+  h2 {
+    font-family: $font1;
+    text-transform: uppercase;
+    max-width: 500px;
+    margin: 40px auto;
+    letter-spacing: 2px;
+    font-weight: 800;
+    font-size: 2.3rem;
+    letter-spacing: 5px;
+  }
+
+  p {
+    max-width: 500px;
+    margin: 0 auto;
+    line-height: 25px;
+    font-style: italic;
+  }
+
+  img{
+    padding: 40px 0 40px;
+    max-width: 90%;
+    height: auto;
+  }
+}

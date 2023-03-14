@@ -1,0 +1,27 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  background-color: rgba(245, 245, 245, 0.123);
+  margin-top: 90px;
+  height: 40px;
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+    font-family: $font1;
+    text-transform: uppercase;
+  }
+
+  a {
+    color: $color1;
+    font-weight: 500;
+    font-size: 0.7rem;
+    padding: 10px;
+    &:hover {
+      background: $color2;
+      color: $color5;
+    }
+  }
+}
