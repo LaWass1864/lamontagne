@@ -1,6 +1,6 @@
 footer {
   background: $color1;
-  margin-top: 20px;
+  margin: 20px 0 40px 0;
   display: grid;
   grid-template-columns: 50% 50%;
 
@@ -89,6 +89,10 @@ footer {
         align-items: center;
         transition: 0.3s;
         color: $color5;
+
+        &:hover{
+          background: $color2;
+        }
       }
     }
   }
