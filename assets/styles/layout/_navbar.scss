@@ -1,27 +1,41 @@
 nav {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  margin: 0 auto;
-  background-color: rgba(245, 245, 245, 0.123);
+  background-color: $color4;
   margin-top: 90px;
   height: 40px;
 
+  .right-side {
+    width: 30%;
+  }
   ul {
+    overflow: hidden;
     display: flex;
     justify-content: space-between;
-    font-family: $font1;
-    text-transform: uppercase;
+  }
+
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &:hover {
+      background: $color6;
+      
+    }
   }
 
   a {
     color: $color1;
-    font-weight: 500;
-    font-size: 0.7rem;
+    font-family: $font1;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    height: auto;
     padding: 10px;
-    &:hover {
-      background: $color2;
-      color: $color5;
+
+    &:hover{
+      color:$color5;
     }
   }
 }
