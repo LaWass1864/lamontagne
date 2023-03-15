@@ -252,6 +252,11 @@ footer label {
   font-weight: 600;
   letter-spacing: 1px;
 }
+@media screen and (max-width: 690px) {
+  footer label {
+    font-size: 0.9rem;
+  }
+}
 footer button {
   background: transparent;
   padding: 10px 30px 10px 30px;
@@ -286,6 +291,11 @@ footer .contacts div span {
   color: rgb(107, 107, 107);
   letter-spacing: 1px;
   padding: 30px;
+}
+@media screen and (max-width: 690px) {
+  footer .contacts div span {
+    font-size: 0.9rem;
+  }
 }
 footer .contacts div p {
   color: rgb(107, 107, 107);
