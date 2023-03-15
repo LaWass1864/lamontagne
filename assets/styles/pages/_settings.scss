@@ -10,7 +10,7 @@
   src: url(/assets/fonts/Merriweather-Light.ttf);
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Merriweather:wght@300&display=swap');
+
 
 $font1: font1, sans-serif;
 $font2: font2, sans-serif;
@@ -42,7 +42,7 @@ body {
   @media screen and (max-width: 690px) {
     margin: 10px;
   }
-  font-family: 'Inter', sans-serif;
+  
 }
 
 a {
