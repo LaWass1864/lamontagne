@@ -22,12 +22,6 @@ $color7: rgb(107, 107, 107);
 
 // Mixins
 
-@mixin center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 @mixin letter {
   letter-spacing: 1px;
 }
@@ -41,8 +35,11 @@ $color7: rgb(107, 107, 107);
 
 body {
   background: url(/assets/images/bg.jpg) fixed center/cover;
-  margin: 0 auto;  
+  margin: 0 auto;
   max-width: 1100px;
+  @media screen and (max-width: 690px) {
+    margin: 10px;
+  }
 }
 
 a {

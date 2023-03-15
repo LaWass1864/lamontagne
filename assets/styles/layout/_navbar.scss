@@ -7,6 +7,16 @@ nav {
 
   .right-side {
     width: 30%;
+    @media screen and (max-width: 690px) {
+      display: none;
+    }
+  }
+
+  .left-side {
+    @media screen and (max-width: 690px) {
+      width: 100%;
+      text-align: center;
+    }
   }
   ul {
     overflow: hidden;

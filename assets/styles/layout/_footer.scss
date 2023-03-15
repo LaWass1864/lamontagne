@@ -3,6 +3,9 @@ footer {
   margin: 20px 0 40px 0;
   display: grid;
   grid-template-columns: 50% 50%;
+  @media screen and (max-width: 690px) {
+    display: block;
+  }
 
   form {
     padding: 30px;
@@ -44,8 +47,7 @@ footer {
     }
   }
 
-  .contacts {
-   
+  .contacts {   
     
     div {
       height: 150px;
