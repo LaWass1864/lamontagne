@@ -29,7 +29,8 @@
 
   img {
     object-fit: cover;
-    width: 100%;
+    max-width: 90%;
+    height: auto;
     margin-bottom: 30px;
   }
 

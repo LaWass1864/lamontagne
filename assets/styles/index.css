@@ -211,7 +211,8 @@ nav a:hover {
 .section2 img {
   -o-object-fit: cover;
      object-fit: cover;
-  width: 100%;
+  max-width: 90%;
+  height: auto;
   margin-bottom: 30px;
 }
 .section2 p {
