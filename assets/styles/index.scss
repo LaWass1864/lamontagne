@@ -2,11 +2,11 @@
 
 // Settings doit être déclarer en premier
 
-@import "../styles/pages/settings";
-@import "../styles/layout/_header.scss";
-@import "../styles/layout/_navbar.scss";
-@import "../styles/layout/_section1.scss";
-@import "../styles/layout/_section2.scss";
-@import "../styles/layout/_footer.scss";
-@import "./components/buttons";
-@import "./components/socialmedias";
+@use "../styles/pages/settings";
+@use "../styles/layout/_header.scss";
+@use "../styles/layout/_navbar.scss";
+@use "../styles/layout/_section1.scss";
+@use "../styles/layout/_section2.scss";
+@use "../styles/layout/_footer.scss";
+@use "./components/buttons";
+@use "./components/socialmedias";
