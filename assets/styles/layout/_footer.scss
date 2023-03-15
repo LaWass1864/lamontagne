@@ -29,6 +29,7 @@ footer {
     font-family: $font1;
     font-weight: 600;
     @include letter;
+    
     @media screen and (max-width: 690px) {
       font-size: 0.9rem;
     }
