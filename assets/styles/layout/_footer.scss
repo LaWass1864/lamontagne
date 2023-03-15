@@ -47,38 +47,38 @@ footer {
     }
   }
 
-  .contacts {   
-    
+  .contacts {
+    @media screen and (max-width: 690px) {
+      border-top: solid 1px rgba(0, 0, 0, 0.082);
+    }
+
     div {
       height: 150px;
       display: grid;
       align-items: baseline;
       align-content: center;
-      grid-template-columns: 30% 70%;      
+      grid-template-columns: 30% 70%;
       border-bottom: 1px solid $color2;
-      
-      
+
       span {
         text-transform: uppercase;
         font-family: $font1;
         font-weight: 600;
         color: $color7;
-        @include letter;    
+        @include letter;
         padding: 30px;
-        
       }
-      
+
       p {
         color: $color7;
         line-height: 25px;
         text-align: left;
         padding: 30px;
       }
-      
+
       ul {
         display: flex;
         justify-content: space-evenly;
-        
       }
 
       a {
@@ -92,7 +92,7 @@ footer {
         transition: 0.3s;
         color: $color5;
 
-        &:hover{
+        &:hover {
           background: $color2;
         }
       }
