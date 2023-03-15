@@ -14,7 +14,7 @@
 }
 
 body {
-  background: url(/assets/images/bg.jpg) fixed center/cover;
+  background: url(;./assets/images/bg.jpg) fixed center/cover;
   margin: 0 auto;
   max-width: 1100px;
 }
