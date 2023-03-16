@@ -1,10 +1,10 @@
 @font-face {
   font-family: "font1";
-  src: url(/assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+  src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
 }
 @font-face {
   font-family: "font2";
-  src: url(/assets/fonts/Merriweather-Light.ttf);
+  src: url(assets/fonts/Merriweather-Light.ttf);
 }
 * {
   margin: 0;
@@ -14,7 +14,7 @@
 }
 
 body {
-  background: url(/assets/images/bg.webp) fixed center/cover;
+  background: url(assets/images/bg.webp) fixed center/cover;
   margin: 0 auto;
   max-width: 1100px;
 }
