@@ -21,6 +21,7 @@ header {
       font-size: 2rem;
       width: 100%;
     }
+
   }
 
   p {
@@ -45,11 +46,7 @@ header {
     transition: 0.3s;
     background: transparent;
     margin-top: 90px;
+              
   }
 
-  .arrow {
-    display: flex;
-    justify-content: center;
-    color: $color1;
-  }
 }
