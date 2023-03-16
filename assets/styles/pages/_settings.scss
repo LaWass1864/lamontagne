@@ -35,7 +35,7 @@ $color7: rgb(107, 107, 107);
 }
 
 body {
-  background-image:url(/assets/images/bg.webp);
+  background-image:url(/assets/images/bg.webp)fixed center/cover;
   margin: 0 auto;
   max-width: 1100px;
   @media screen and (max-width: 690px) {
