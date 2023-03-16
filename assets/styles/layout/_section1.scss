@@ -14,9 +14,9 @@
     align-items: center;
     color: $color5;
     font-family: $font2;
-    margin: 15px 0px;
+    margin: 15px 0px;   
   }
-
+  
   .hr-sect:before,
   .hr-sect:after {
     content: "";
@@ -26,6 +26,8 @@
     line-height: 0px;
     margin: 0px 50px 0 50px;
   }
+
+  
 
   h2 {
     font-family: $font1;

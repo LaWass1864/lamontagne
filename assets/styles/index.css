@@ -331,7 +331,7 @@ button:hover {
   background: rgba(216, 215, 215, 0.711);
 }
 button a {
-  color: white;
+  color: black;
   font-weight: 800;
   letter-spacing: 2px;
   text-transform: uppercase;

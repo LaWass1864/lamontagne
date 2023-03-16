@@ -1,6 +1,5 @@
 button {
-    background: transparent;
-    padding: 10px 30px 10px 30px;
+    background: transparent;    
     cursor: pointer;
 
     &:hover {
@@ -8,7 +7,7 @@ button {
     }
 
     a {
-    color: $color1;
+    color: $color5;
     font-weight: 800;
     letter-spacing: 2px;
     text-transform: uppercase;

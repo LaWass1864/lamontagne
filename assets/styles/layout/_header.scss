@@ -9,7 +9,7 @@ header {
 
   h1 {
     font-family: $font1;
-    color: $color1;
+    color: $color4;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -21,7 +21,6 @@ header {
       font-size: 2rem;
       width: 100%;
     }
-
   }
 
   p {
@@ -46,7 +45,22 @@ header {
     transition: 0.3s;
     background: transparent;
     margin-top: 90px;
+    color:$color1;
               
+    a {
+      color: $color1;
+      font-family: $font1;
+      font-weight: 700;
+      text-transform: uppercase;
+      font-size: 0.8rem;
+      height: auto;
+      padding: 10px;
+      transition: 0.2s;
+  
+      &:hover {
+        color: $color5;
+      }
+    }
   }
 
 }
