@@ -68,8 +68,7 @@ header button {
   margin: 0 auto;
   border-radius: 50%;
   border: 2px solid #fff;
-  padding: 10px;
-  border-radius: 50px;
+  padding: 10px;  
   width: 44px;
   height: 44px;
   display: flex;
@@ -78,11 +77,12 @@ header button {
   transition: 0.3s;
   background: transparent;
   margin-top: 90px;
+  color: #fff!important;
 }
 header .arrow {
   display: flex;
   justify-content: center;
-  color: #fff;
+  color: #fff!important;
 }
 
 nav {
