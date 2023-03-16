@@ -85,6 +85,10 @@ header .arrow {
   color: #fff!important;
 }
 
+.fa-solid, .fas {
+  font-weight: 900;
+  color: white;
+}
 nav {
   display: flex;
   justify-content: space-between;
