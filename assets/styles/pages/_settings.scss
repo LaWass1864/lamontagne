@@ -33,6 +33,15 @@ $color7: rgb(107, 107, 107);
   list-style: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  font-family: $font1;
+}
+
 body {
   background: url(master/assets/images/bg.webp) fixed center/cover;
   // autant de marge a droite qu'a gauche lorsqu'il y a une max width
@@ -49,7 +58,8 @@ body {
     top: 0;
     left: 0;
     background: black;
-    animation: animBefore 1.5s ease;
+    animation: animBefore 1.5s ease forwards;
+    animation-delay: 30s;
 
     @keyframes animBefore {
       to {
@@ -59,11 +69,3 @@ body {
   }
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
-a {
-  text-decoration: none;
-  font-family: $font1;
-}
