@@ -36,12 +36,33 @@ $color7: rgb(107, 107, 107);
 
 body {
   background:url(master/assets/images/bg.webp)fixed center/cover;
+  // autant de marge a droite qu'a gauche lorsqu'il y a une max width
   margin: 0 auto;
-  max-width: 1200px;
-  @media screen and (max-width: 690px) {
-    margin: 10px;
+  max-width: 1300px;
+  // aligner les elements
+  text-align: center;
+
+  &:before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: black;
+    animation: animBefore 1.5s ease;
+
+    @keyframes animBefore {
+      to{
+        opacity: 0;
+      }
+      
+    }
   }
-  
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 a {
