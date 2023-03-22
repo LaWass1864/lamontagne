@@ -1,17 +1,17 @@
 // Settings regroupe tous les réglages généraux
 
 @font-face {
-  font-family: "font1";
-  src: url(../assets/fonts/Inter-VariableFont_slnt/wght.ttf);
+  font-family: "inter-bold";
+  src: url(../fonts/Inter-ExtraBold.ttf);
 }
 
 @font-face {
-  font-family: "font2";
-  src: url(../assets/fonts/Merriweather-Light.ttf);
+  font-family: "merri";
+  src: url(../fonts/Merriweather-Light.ttf);
 }
 
-$font1: font1, sans-serif;
-$font2: font2, sans-serif;
+$font1: inter-bold, sans-serif;
+$font2: merri, serif;
 $color1: #fff;
 $color2: rgba(216, 215, 215, 0.711);
 $color3: rgba(37, 36, 36, 0.797);
@@ -42,8 +42,9 @@ a {
   font-family: $font1;
 }
 
+
 body {
-  background: url(master/assets/images/bg.webp) fixed center/cover;
+  background: url(../images/bg.webp) fixed center/cover;
   // autant de marge a droite qu'a gauche lorsqu'il y a une max width
   margin: 0 auto;
   max-width: 1300px;
@@ -57,9 +58,9 @@ body {
     width: 100%;
     top: 0;
     left: 0;
-    background: black;
+    background: red;
     animation: animBefore 1.5s ease forwards;
-    animation-delay: 30s;
+    animation-delay: 1.8s;
 
     @keyframes animBefore {
       to {
@@ -68,4 +69,3 @@ body {
     }
   }
 }
-

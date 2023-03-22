@@ -2,11 +2,9 @@
 
 // Settings doit être déclarer en premier
 
-@use "../styles/pages/settings";
-@use "../styles/layout/_header.scss";
-@use "../styles/layout/_navbar.scss";
-@use "../styles/layout/_section1.scss";
-@use "../styles/layout/_section2.scss";
-@use "../styles/layout/_footer.scss";
-@use "./components/buttons";
-@use "./components/socialmedias";
+@use "./_settings";
+@use "./layout/_header";
+@use "./layout/_navbar";
+@use "./layout/_section1";
+@use "./layout/_section2";
+@use "./layout/_footer"
