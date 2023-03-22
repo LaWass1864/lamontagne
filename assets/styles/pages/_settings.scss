@@ -2,14 +2,13 @@
 
 @font-face {
   font-family: "font1";
-  src: url(../assets/fonts/Inter-VariableFont_slnt/,wght.ttf);
+  src: url(../assets/fonts/Inter-VariableFont_slnt/wght.ttf);
 }
 
 @font-face {
   font-family: "font2";
   src: url(../assets/fonts/Merriweather-Light.ttf);
 }
-
 
 $font1: font1, sans-serif;
 $font2: font2, sans-serif;
@@ -35,7 +34,7 @@ $color7: rgb(107, 107, 107);
 }
 
 body {
-  background:url(master/assets/images/bg.webp)fixed center/cover;
+  background: url(master/assets/images/bg.webp) fixed center/cover;
   // autant de marge a droite qu'a gauche lorsqu'il y a une max width
   margin: 0 auto;
   max-width: 1300px;
@@ -53,10 +52,9 @@ body {
     animation: animBefore 1.5s ease;
 
     @keyframes animBefore {
-      to{
+      to {
         opacity: 0;
       }
-      
     }
   }
 }
