@@ -1,5 +1,8 @@
 footer {
-  background: $color1;
+  // min-height: 640px
+  //width: 85%;
+  // margin: 0 auto 70px
+  background-color: $color2;
   margin: 20px 0 40px 0;
   display: grid;
   grid-template-columns: 50% 50%;
@@ -8,8 +11,9 @@ footer {
   }
 
   form {
+    // grid : pour que les elements se mettent les uns en dessous des autres + mettre un grid template rows: 18px 45px 18px 45px 200px 1fr (label+input+ta)
     padding: 30px;    
-    border-right: 2px solid rgba(0, 0, 0, 0.082);
+    border-right: 2px solid rgb(188, 186, 186);
   }
 
   input[type="text"],

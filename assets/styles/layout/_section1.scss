@@ -8,6 +8,7 @@
     padding: 50px;
   }
 
+  // faire deux barres avec un titre au centre
   .hr-sect {
     display: flex;
     flex-basis: 80%;
@@ -25,11 +26,13 @@
     height: 1.6px;
     line-height: 0px;
     margin: 0px 50px 0 50px;
+    // on peut aussi mettre un transform: translateY(-50%) + mettre un @media queries pour ajuster la width
   }
 
   
 
   h2 {
+    // penser a ajouter un mixin pour uniformiser le tout
     font-family: $font1;
     text-transform: uppercase;
     max-width: 500px;
@@ -41,6 +44,7 @@
   }
 
   p {
+    // nous pouvons aussi mettre une with: 60%
     max-width: 500px;
     margin: 0 auto;
     line-height: 25px;

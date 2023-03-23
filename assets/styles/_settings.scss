@@ -4,7 +4,6 @@
   font-family: "inter-bold";
   src: url(../fonts/Inter-ExtraBold.ttf);
 }
-
 @font-face {
   font-family: "merri";
   src: url(../fonts/Merriweather-Light.ttf);
@@ -45,13 +44,11 @@ a {
 
 body {
   background: url(../images/bg.webp) fixed center/cover;
-  // autant de marge a droite qu'a gauche lorsqu'il y a une max width
-  margin: 0 auto;
-  max-width: 1300px;
-  // aligner les elements
   text-align: center;
+  font-family: $font2;
+  max-width: 1300px;
+  margin: 0 auto;
 
-  // Animation au chargement de la page
   &:before {
     content: "";
     position: absolute;
@@ -61,7 +58,7 @@ body {
     left: 0;
     background: red;
     animation: animBefore 1.5s ease forwards;
-    animation-delay: 1.8s;
+    animation-delay: 0.15s;
 
     @keyframes animBefore {
       to {
