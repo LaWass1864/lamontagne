@@ -4,6 +4,7 @@ nav {
   background-color: $color4;
   margin-top: 90px;
   height: 50px;
+  
   // afin que la nav reste en bas, nous pouvons lui ajouter une postion absolute.
   // position : absolute;
   // bottom: 0;
@@ -31,18 +32,15 @@ nav {
   }
 
   li {
+    // Les li peuvent aussi se mettre dans la balise .section-left + mettre un hover sur le premier enfant
     display: flex;
     justify-content: space-between;
     align-items: center;
-    // Les li peuvent aussi se mettre dans la balise .section-left + mettre un hover sur le premier enfant
-    
-  
-
     &:hover {
       background: $color6;
     }
   }
-
+  
   a {
     color: $color1;
     font-family: $font1;

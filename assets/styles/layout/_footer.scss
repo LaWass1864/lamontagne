@@ -6,6 +6,7 @@ footer {
   margin: 20px 0 40px 0;
   display: grid;
   grid-template-columns: 50% 50%;
+  
   @media screen and (max-width: 690px) {
     display: block;
   }
@@ -27,7 +28,7 @@ footer {
   }
 
   label {
-    text-transform: uppercase;
+    text-transform: uppercase;    
     color: $color7;
     font-family: $font1;
     font-weight: 600;
