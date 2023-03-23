@@ -17,8 +17,7 @@
   }
 
   body {
-    background: url(../images/bg.webp) fixed center/cover;
-    text-align: center;
+    background: url(../images/bg.webp) fixed center/cover;    
     font-family: merri, serif;
     max-width: 1300px;
     margin: 0 auto;
