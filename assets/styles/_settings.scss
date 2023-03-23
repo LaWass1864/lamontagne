@@ -46,7 +46,7 @@ a {
 
 body {
   background: url(../images/bg.webp) fixed center/cover;
-  
+  text-align: center;
   font-family: $font2;
   max-width: 1300px;
   margin: 0 auto;
@@ -58,7 +58,7 @@ body {
     width: 100%;
     top: 0;
     left: 0;
-    background: red;
+    background: $black1;
     animation: animBefore 1.5s ease forwards;
     animation-delay: 0.15s;
 
