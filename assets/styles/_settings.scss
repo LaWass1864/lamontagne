@@ -51,6 +51,7 @@ body {
   // aligner les elements
   text-align: center;
 
+  // Animation au chargement de la page
   &:before {
     content: "";
     position: absolute;
