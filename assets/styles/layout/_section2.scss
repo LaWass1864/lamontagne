@@ -30,7 +30,7 @@
 
   img {
     object-fit: cover;
-    max-width: 90%;
+    max-width: auto;
     height: auto;
     margin-bottom: 30px;
   }
@@ -39,5 +39,6 @@
     text-align: left;
     margin-bottom: 30px;
     line-height: 30px;
+    
   }
 }
